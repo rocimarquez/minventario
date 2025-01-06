@@ -64,3 +64,8 @@ group :test do
   gem "selenium-webdriver"
 
 end
+gem 'mongoid', '~> 7.5'
+
+group :development, :test do
+  gem 'rspec-rails', '~> 5.1'
+end
